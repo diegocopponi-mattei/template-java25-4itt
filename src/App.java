@@ -18,7 +18,7 @@ public class App {
      * @throws IOException In caso di errore durante la lettura dallo stream di input.
      */
     public static void main(String[] args) throws IOException {
-        String titoloProgetto = "Esercitazione Java 25 - 4ª ITT"
+        String titoloProgetto = "Esercitazione Java 25 - 4ª ITT";
         stampaIntestazione(titoloProgetto);
 
         // Oggetto per la lettura dell'input da tastiera (es. String s = tastiera.readLine();)

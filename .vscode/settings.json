@@ -8,6 +8,8 @@
     "lib/**/*.jar"
   ],
 
+  "java.server.launchMode": "Standard",
+
   // Riduzione autocompletamento e segnalazione errori in tempo reale
   "java.autobuild.enabled": false,
   "editor.quickSuggestions": {
@@ -53,6 +55,7 @@
   "extensions.ignoreRecommendations": true,
 
   // Paletta colori personalizzata scuola
+  "workbench.colorTheme": "Visual Studio Dark",
   "workbench.colorCustomizations": {
     "titleBar.activeBackground": "#0A60A8",
     "titleBar.activeForeground": "#FFFFFF",
@@ -73,5 +76,20 @@
     "list.activeSelectionBackground": "#07477D",
     "list.activeSelectionForeground": "#FFFFFF",
     "list.hoverBackground": "#08508C"
-  }
+  },
+  //"workbench.colorTheme": "Default Light Modern",
+  //"workbench.colorCustomizations": {
+  //  "titleBar.activeBackground": "#004a99",
+  //  "titleBar.activeForeground": "#ffffff",
+  //  "activityBar.background": "#004a99",
+  //  "activityBar.foreground": "#ffffff",
+  //  "activityBar.inactiveForeground": "#b3d1ff",
+  //  "statusBar.background": "#004a99",
+  //  "statusBar.foreground": "#ffffff",
+  //  "sideBar.background": "#f3f6fa",
+  //  "sideBar.foreground": "#1e293b",
+  //  "sideBarSectionHeader.background": "#e2e8f0",
+  //  "sideBarSectionHeader.foreground": "#0f172a",
+  //  "icon.foreground": "#1e293b"
+  //},
 }
