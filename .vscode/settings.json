@@ -1,0 +1,77 @@
+{
+  // Struttura cartelle Java
+  "java.project.sourcePaths": [
+    "src"
+  ],
+  "java.project.outputPath": "bin",
+  "java.project.referencedLibraries": [
+    "lib/**/*.jar"
+  ],
+
+  // Riduzione autocompletamento e segnalazione errori in tempo reale
+  "java.autobuild.enabled": false,
+  "editor.quickSuggestions": {
+    "other": "off",
+    "comments": "off",
+    "strings": "off"
+  },
+  "editor.suggestOnTriggerCharacters": false,
+  "editor.parameterHints.enabled": false,
+  "editor.inlineSuggest.enabled": false,
+
+  // Interfaccia pulita e avvio rapido
+  "workbench.startupEditor": "none",
+  "workbench.editor.empty.hint": "hidden",
+  "workbench.sideBar.location": "left",
+  "workbench.secondarySideBar.show": false,
+  "workbench.secondarySideBar.defaultVisibility": "hidden",
+  "workbench.panel.defaultLocation": "bottom",
+  "workbench.statusBar.visible": true,
+  "window.commandCenter": false,
+  "telemetry.telemetryLevel": "off",
+
+  // Disattivazione completa GitHub Copilot e funzioni IA
+  "chat.disableAIFeatures": true,
+  "chat.enabled": false,
+  "chat.commandCenter.enabled": false,
+  "chat.titleBar.signIn.enabled": false,
+  "chat.titleBar.openInAgentsWindow.enabled": false,
+  "inlineChat.showHoldToSpeak": false,
+  "github.copilot.enable": {
+    "*": false,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false,
+    "java": false
+  },
+  "github.copilot.chat.welcomeMessage": "never",
+  "github.copilot.editor.enableAutoCompletions": false,
+  "github.copilot.editor.enableCodeActions": false,
+  "workbench.activityBar.hiddenItems": {
+    "workbench.view.extension.chat": true
+  },
+  "extensions.ignoreRecommendations": true,
+
+  // Paletta colori personalizzata scuola
+  "workbench.colorCustomizations": {
+    "titleBar.activeBackground": "#0A60A8",
+    "titleBar.activeForeground": "#FFFFFF",
+    "titleBar.inactiveBackground": "#0A60A8",
+    "titleBar.inactiveForeground": "#D0E2F0",
+    "activityBar.background": "#0A60A8",
+    "activityBar.foreground": "#FFFFFF",
+    "activityBar.inactiveForeground": "#B2D3EC",
+    "activityBarBadge.background": "#243064",
+    "activityBarBadge.foreground": "#FFFFFF",
+    "activityBar.hoverBackground": "#08508C",
+    "activityBar.activeBackground": "#07477D",
+    "statusBar.background": "#0A60A8",
+    "statusBar.foreground": "#FFFFFF",
+    "statusBar.noFolderBackground": "#07477D",
+    "selection.background": "#07477D",
+    "focusBorder": "#07477D",
+    "list.activeSelectionBackground": "#07477D",
+    "list.activeSelectionForeground": "#FFFFFF",
+    "list.hoverBackground": "#08508C"
+  }
+}
