@@ -113,12 +113,27 @@ Poiché il tuo repository è impostato su **Private**, il docente non potrà ved
 4. Fai clic su **Add people**.
 5. Inserisci il nome utente GitHub del docente e conferma l'invio dell'invito.
 
-### 3. Consegna su Google Classroom
+### 3. Scaricare l'archivio ZIP con prefisso `cognome_nome`
 
-1. Copia l'indirizzo URL della pagina principale del tuo repository.
-2. Apri la scheda del compito su **Google Classroom**.
-3. Fai clic su **Aggiungi o crea** -> **Link**.
-4. Incolla l'URL del tuo repository e fai clic su **Contrassegna come inviato** o **Consegna**.
+Oltre alla sincronizzazione Git, è richiesta la scaricamento e rinominazione dell'archivio completo dei sorgenti:
+
+1. Dalla pagina principale del tuo repository su GitHub, fai clic sul pulsante verde **<> Code**.
+2. Seleziona la voce **Download ZIP**.
+3. Apri la cartella dei download sul tuo computer e rinomina il file appena scaricato aggiungendo in testa il prefisso `cognome_nome` (tutto in minuscolo o rispettando le maiuscole del tuo nome, separato da un trattino basso).
+   * **Convenzione di nome:** `cognome_nome_nome-repository.zip`
+   * **Esempio pratico:** `rossi_mario_es01-calcolatrice.zip`
+
+### 4. Consegna su Google Classroom
+
+Per completare la consegna, devi allegare al compito **sia il link al repository privato sia il file ZIP**:
+
+1. Copia l'indirizzo URL della pagina principale del tuo repository su GitHub.
+2. Apri la scheda del compito corrispondente su **Google Classroom**.
+3. Nella sezione **Il tuo lavoro** (in alto a destra):
+   * Fai clic su **Aggiungi o crea** -> **Link** e incolla l'URL del tuo repository GitHub.
+   * Fai clic su **Aggiungi o crea** -> **File** e seleziona il file ZIP appena scaricato e rinominato (`cognome_nome_...zip`).
+4. Verifica che entrambi gli allegati (**Link** e **File ZIP**) siano correttamente presenti.
+5. Fai clic su **Consegna** (o *Contrassegna come inviato*) e conferma la scelta.
 
 ---
 
